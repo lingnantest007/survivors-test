@@ -1,0 +1,84 @@
+{
+  "xp_curve": {
+    "base": 4,
+    "per_level": 3
+  },
+  "max_weapons": 4,
+  "max_weapon_level": 5,
+  "passives": {
+    "Swift Boots": {
+      "kind": "speed",
+      "amount": 0.1,
+      "desc": "+10% move speed"
+    },
+    "Hearty Cherry": {
+      "kind": "health",
+      "amount": 25,
+      "desc": "+25 max HP, heals 25"
+    },
+    "Magnet Clasp": {
+      "kind": "magnet",
+      "amount": 15,
+      "desc": "+15 gem pickup radius"
+    }
+  },
+  "weapons": {
+    "Whip": {
+      "kind": "fan",
+      "desc": "slashes forward in a fan",
+      "base_damage": 7,
+      "damage_per_level": 2,
+      "base_shots": 2,
+      "shots_per_level": 1,
+      "base_cooldown": 0.9,
+      "cooldown_change_per_level": 0.0,
+      "projectile_speed": 300,
+      "projectile_lifetime": 0.35,
+      "gravity": 0.0,
+      "pierce": 1,
+      "spread_deg": 30
+    },
+    "Magic Wand": {
+      "kind": "aim",
+      "desc": "shoots the nearest enemy",
+      "base_damage": 7,
+      "damage_per_level": 2,
+      "base_shots": 1,
+      "shots_per_level": 0,
+      "base_cooldown": 0.8,
+      "cooldown_change_per_level": -0.05,
+      "projectile_speed": 350,
+      "projectile_lifetime": 1.5,
+      "gravity": 0.0,
+      "pierce": 1,
+      "range": 500
+    },
+    "Garlic": {
+      "kind": "aura",
+      "desc": "damages everything around you",
+      "base_damage": 4,
+      "damage_per_level": 0,
+      "base_shots": 1,
+      "shots_per_level": 0,
+      "base_cooldown": 0.5,
+      "cooldown_change_per_level": 0.0,
+      "radius": 40,
+      "radius_per_level": 8
+    },
+    "Axe": {
+      "kind": "arc",
+      "desc": "thrown up in an arc, hits everything it passes",
+      "base_damage": 12,
+      "damage_per_level": 3,
+      "base_shots": 1,
+      "shots_per_level": 0.5,
+      "base_cooldown": 1.5,
+      "cooldown_change_per_level": 0.0,
+      "projectile_speed": 260,
+      "projectile_lifetime": 2.0,
+      "gravity": 500,
+      "pierce": 99,
+      "spread_deg": 25
+    }
+  }
+}

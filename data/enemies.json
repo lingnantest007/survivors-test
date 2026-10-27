@@ -1,0 +1,78 @@
+{
+  "bat": {
+    "name": "Bat",
+    "hp": 5,
+    "speed": 80,
+    "xp": 1,
+    "damage": 1,
+    "wave": 1,
+    "radius": 8,
+    "sprite": "bat.png",
+    "color": [
+      150,
+      150,
+      160
+    ]
+  },
+  "zombie": {
+    "name": "Zombie",
+    "hp": 14,
+    "speed": 45,
+    "xp": 2,
+    "damage": 1,
+    "wave": 2,
+    "radius": 10,
+    "sprite": "slime.png",
+    "color": [
+      90,
+      160,
+      80
+    ]
+  },
+  "skeleton": {
+    "name": "Skeleton",
+    "hp": 10,
+    "speed": 80,
+    "xp": 3,
+    "damage": 1,
+    "wave": 5,
+    "radius": 9,
+    "sprite": "spider.png",
+    "color": [
+      230,
+      230,
+      230
+    ]
+  },
+  "ghost": {
+    "name": "Ghost",
+    "hp": 7,
+    "speed": 110,
+    "xp": 3,
+    "damage": 1,
+    "wave": 8,
+    "radius": 8,
+    "sprite": "ghost.png",
+    "color": [
+      170,
+      210,
+      240
+    ]
+  },
+  "giant_bat": {
+    "name": "Giant Bat",
+    "hp": 600,
+    "speed": 60,
+    "xp": 100,
+    "damage": 5,
+    "wave": 99,
+    "radius": 40,
+    "is_boss": true,
+    "sprite": "demon.png",
+    "color": [
+      200,
+      60,
+      60
+    ]
+  }
+}

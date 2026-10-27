@@ -1,0 +1,8 @@
+{
+  "wave_interval": 12.0,
+  "wave_count": 25,
+  "boss_time": 300.0,
+  "enemies_per_wave_base": 8,
+  "enemies_per_wave_growth": 1,
+  "enemy_cap": 60
+}
